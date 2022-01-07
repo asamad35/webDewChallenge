@@ -1,0 +1,25 @@
+.hero-container {
+  background-image: url("https://f.hubspotusercontent40.net/hubfs/8183098/BG-homepage.svg");
+  height: 50rem;
+
+  .content-image {
+    padding-right: 4rem;
+    border-right: 5px solid #60d;
+    max-width: 60rem;
+    img {
+      width: 100%;
+    }
+  }
+
+  .content-heading {
+    padding-left: 4rem;
+    .primary-heading {
+      font-size: 6rem;
+    }
+
+    span {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+  }
+}

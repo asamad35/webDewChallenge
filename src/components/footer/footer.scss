@@ -1,0 +1,26 @@
+.footer {
+  text-align: right;
+  gap: 10rem;
+  padding: 5rem;
+  .primary-heading {
+    color: white;
+    font-size: 4rem;
+  }
+  form {
+    gap: 2rem;
+    input {
+      padding: 1rem 2rem;
+      width: 30rem;
+      height: 4rem;
+      font-size: 1.6rem;
+      border-radius: 2rem;
+      border: none;
+      outline: none;
+    }
+    .primary-btn {
+      border: none;
+      padding: 1.2rem 2rem;
+      font-size: 1.6rem;
+    }
+  }
+}

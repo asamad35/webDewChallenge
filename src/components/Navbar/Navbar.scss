@@ -1,0 +1,27 @@
+.nav-bar {
+  padding: 1rem 15rem;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.logo {
+  width: 5rem;
+
+  .logo-img {
+    width: 100%;
+  }
+}
+
+.nav-links {
+  gap: 8rem;
+
+  .nav-link {
+    list-style: none;
+
+    a {
+      font-size: large;
+      color: white;
+      text-decoration: none;
+    }
+  }
+}

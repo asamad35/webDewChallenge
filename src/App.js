@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+
+import Navbar from './components/Navbar/Navbar';
+import HeroSection from './components/heroSection/heroSection';
+import InterviewSection from './components/interviewSection/interviewSection';
+import Footer from './components/footer/footer';
+import Cards from './components/cards/cards';
+import FinalFooter from './components/finalFooter/finalFooter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <HeroSection/>
+      <InterviewSection/>
+      <Footer backgroundColor={'#590dff'} btnBackground={'black'} btnColor={'white'} >Decoding the capability of <br/> Artificial Intelligence</Footer>
+      <div className="black-bg"></div>
+      <Cards/>
+      <Footer backgroundColor={'black'} btnBackground={'#16F3BF'} btnColor={'black'} >Keep up with the <br/> Latest on AI</Footer>
+      <FinalFooter/>
     </div>
   );
 }

@@ -1,0 +1,9 @@
+.cards {
+  padding: 5rem 20rem;
+  display: grid;
+  row-gap: 5rem;
+  column-gap: 4rem;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  background-color: #e4e4e4;
+}

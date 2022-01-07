@@ -1,0 +1,33 @@
+.interview-section {
+  background-color: #f6f6f6;
+  padding: 10rem 15rem;
+  gap: 10rem;
+
+  .image-container {
+    width: 200rem;
+    border-radius: 4em;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+  }
+
+  .text-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+    .primary-heading {
+      font-size: 3rem;
+    }
+
+    .secondary-heading {
+      font-size: 2rem;
+      color: #01d1a0;
+    }
+    p {
+      font-size: 1.6rem;
+      margin-bottom: 4rem;
+    }
+  }
+}
